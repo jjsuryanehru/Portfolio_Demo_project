@@ -1529,7 +1529,7 @@ footer {
 
   /* Portfolio Section */
   .portfoliocard .overlayer{
-    height: 62%;
+    height: 64%;
     opacity: 0;
     visibility: hidden;
   }
@@ -1538,6 +1538,9 @@ footer {
   transform: translateY(-8px);
   opacity: 1;
   transition: transform 0.7s linear;
+}
+.portfoliocard:hover {
+  transform: translateY(-8px);
 }
 
 /* Testimonial Section */
