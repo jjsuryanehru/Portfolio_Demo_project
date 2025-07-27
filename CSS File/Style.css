@@ -580,7 +580,6 @@ ul li {
 
 /* Skill Types */
 .skillbox {
-  padding: 20px 0px;
   padding: 32px;
   background-color: #ffffff;
   border-radius: 10px;
@@ -675,6 +674,9 @@ ul li {
 .timelineleft h4 {
   font-size: 17.5px;
   margin-bottom: 4px;
+}
+.timelineleft span{
+  color: #e87532;
 }
 
 /* Time Line Dot */
@@ -873,7 +875,7 @@ ul li {
 .innertestimonial h3 {
   font-size: 18px;
 }
-p {
+.leftcard p {
   font-size: 16px;
   line-height: 1.8;
   /* font-style: italic; */
@@ -894,7 +896,7 @@ p {
   padding: 10px 0;
   position: relative;
 }
-.reviewportfolio img {
+.reviewportfolio img {  
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -957,7 +959,7 @@ p {
 /* -----servicescontent-------- */
 .servicescontent {
   padding: 10px;
-  width: 33.33333%;
+  max-width: 33.33333%;
 }
 .servicescontent h2 {
   font-size: 40px;
@@ -979,7 +981,7 @@ p {
 
 /* serviceboxes */
 .servicemainboxes {
-  width: 66.6666667%;
+  max-width: 66.6666667%;
   display: flex;
 }
 .serviceboxes1 {
@@ -1047,7 +1049,7 @@ p {
 /* ********** Frequently Asked Questions Section ********* */
 /* Frequency acked question Section */
 .frequencyboxes {
-  margin: 50px 100px 20px 100px;
+  margin: 50px 65px 20px 65px;
   padding: 15px;
 }
 
@@ -1348,6 +1350,18 @@ footer {
     left: 450px;
   }
 
+  /* Service Section */
+  .servicescontent h2{
+    font-size: 35px;
+  }
+  .serbox h4{
+    font-size: 18px;
+  }
+  .serbox p,
+.servicescontent p {
+  font-size: 15px;
+}
+
   /* Contact Section */
   .contactinfo {
     max-width: 50%;
@@ -1363,7 +1377,7 @@ footer {
 @media screen and (max-width: 992px) {
   /* Header Section */
   .container {
-    padding: 0 60px;
+    padding: 0 30px;
   }
   .innerheader {
     padding: 15px 35px 7px 35px;
@@ -1381,7 +1395,10 @@ footer {
 
   /* Home Section */
   section {
-    padding: 0px 80px;
+    padding: 0px 60px;
+  }
+  .homesect{
+    padding-top: 50px;
   }
   .innerhome {
     display: block;
@@ -1423,8 +1440,25 @@ footer {
     bottom: -40px;
     left: 40px;
   }
+  @keyframes nav_animation {
+  0% {
+    transform: translateY(80px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 
   /* Resume section and all section inherited */
+   .returnhome i {
+    font-size: 20px;
+    padding: 10px 12px;
+  }
   .content h2 {
     font-size: 36px;
   }
@@ -1457,9 +1491,115 @@ footer {
   /* Skill Section */
   .innerskill {
     flex-wrap: wrap;
-    padding: 0 60px;
+    padding: 0px 30px 0 50px;
   }
   .skillbox {
+    width: 400px;
+  }
+  .skillpercentin{
     width: 350px;
   }
+  .skillpercentout1,
+  .skillpercentout2 {
+  width: 320px;
+  }
+  .skillpercentout3{
+    width: 290px;
+  }
+  .skillpercentout4{
+    width: 200px;
+  }
+
+  /* Resume Section */
+  .timelineinner{
+    display: block;
+    padding-left: 50px;
+  }
+  .timelinedot{
+    left: 0;
+    top: 0;
+  }
+  .timeline::before{
+    left: 6.56px;
+  }
+  .timelineleft{
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+
+  /* Portfolio Section */
+  .portfoliocard .overlayer{
+    height: 62%;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .portfoliocard:hover .overlayer {
+  visibility: visible;
+  transform: translateY(-8px);
+  opacity: 1;
+  transition: transform 0.7s linear;
+}
+
+/* Testimonial Section */
+.rightcard img{
+  display: none;
+}
+.leftcard{
+  max-width: 100%;
+}
+.movebtn {
+  top: 200px;
+  left: 300px;
+}
+.leftcard p {
+  font-size: 17px;
+}
+
+/* Services Section */
+.servicescard {
+  display: block;
+  margin: 30px 50px;
+}
+.servicescontent,.servicemainboxes{
+  max-width: 100%;
+}
+.servicescontent h2 {
+  font-size: 40px;
+}
+.serbox{
+  width: 320px;
+  height: 240px;
+  margin-bottom: 30px;
+  padding: 25px;
+}
+.serviceboxes1 {
+  margin-right: 30px;
+  margin-left: 25px;
+}
+.serbox h4 {
+  font-size:19px;
+}
+.serbox p{
+  font-size: 16px;
+}
+
+/* Frequently Asked Questions Section */
+.frequencyboxes {
+  margin: 50px 0 20px 0;
+  padding: 15px;
+}
+
+/* Contact Section */
+.innercontact{
+  display: block;
+  padding: 0 150px;
+}
+.contactinfo{
+  max-width: 100%;
+  margin-bottom: 60px;
+}
+.contactform{
+  max-width: 100%;
+}
+
 }
