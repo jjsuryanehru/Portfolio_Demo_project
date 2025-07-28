@@ -968,7 +968,7 @@ ul li {
   margin-bottom: 20px;
 }
 
-.servicescontent button {
+.servicescontent button a{
   padding: 15px 20px;
   font-size: 15px;
   border-radius: 50px;
@@ -977,6 +977,14 @@ ul li {
   color: #e87532;
   background-color: #fff;
 }
+button {
+  border: none;
+}
+.servicescontent button:hover a{
+      color: #fff;
+      background-color: #e87532;
+}
+
 /* ============================== */
 
 /* serviceboxes */
@@ -1379,10 +1387,14 @@ footer {
   }
   .innerheader {
     padding: 15px 35px 7px 35px;
+    align-items: center;
   }
   .innerheader h1 {
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 600;
+  }
+  .innerheader h1 a{
+    color:#ea5621;
   }
   .nav {
     display: none;
@@ -1614,6 +1626,7 @@ footer {
   }
   .innerheader h1 a {
     font-size: 21px;
+    color: #ea2121;
   }
   summary i {
     font-size: 20px;
@@ -1697,6 +1710,9 @@ footer {
   }
 
   /* Service Section */
+  .servicescontent{
+    margin-bottom: 30px;
+  }
   .servicescard {
     margin: 30px 0px 10px 0px;
   }
@@ -1729,6 +1745,9 @@ footer {
   .container {
     padding: 0 25px;
   }
+  .innerheader h1 a{
+    color: #e87532;
+  }
 
   /* Home Section */
   .homecontent,
@@ -1742,12 +1761,26 @@ footer {
   .homecontent p {
     font-size: 19px;
   }
+  .homebutton a {
+    display: block;
+    padding: 15px 20px;
+    font-size: 18px;
+     margin: 0 20px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+  }
+  .homeadd{
+    display: block;
+  }
+  .add{
+    margin-bottom:25px ;
+  }
   .add h1 {
-    font-size: 38px;
+    font-size: 45px;
     font-weight: 600;
   }
   .add p {
-    font-size: 17px;
+    font-size: 20px;
   }
   .shape1 {
     width: 210px;
@@ -1763,6 +1796,14 @@ footer {
   }
 
   /* About Section */
+    .returnhome {
+      right:2px;
+      bottom: 2px;
+  }
+  .returnhome i {
+    padding: 8px 10px;
+    font-size: 18px;
+  }
   .content h2 {
     font-size: 32px;
   }
@@ -1827,8 +1868,53 @@ footer {
     margin: 60px 0;
   }
   .navbar1 li a {
-    font-size: 15px;
+    font-size: 16px;
     padding: 10px 15px;
     border-radius: 30px;
   }
+  .row{
+    display: block;
+  }
+  .cols{
+    max-width: 100%;
+  }
+  .portfoliocard {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  }
+  .portfoliocard p{
+    font-size: 18px;
+  }
+  .portfoliocard .overlayer{
+    height: 72.566%;
+  }
+
+  /* Testimonial Section */
+  .movebtn {
+    left: 150px;
+  }
+
+  /* Service Section */
+  .servicescontent{
+    margin: 0 10px;
+    margin-bottom: 30px;
+  }
+  .servicemainboxes{
+    display: block;
+  }
+    .serbox{
+    width: 100%;
+    height: 100%;
+  }
+    .serviceboxes1,.serviceboxes2 {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  /* Frequently Asked Questions Section */
+  summary{
+    font-size: 14px;
+  }
+
+
 }
