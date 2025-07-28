@@ -968,7 +968,7 @@ ul li {
   margin-bottom: 20px;
 }
 
-.servicescontent button a{
+.servicescontent button a {
   padding: 15px 20px;
   font-size: 15px;
   border-radius: 50px;
@@ -980,9 +980,9 @@ ul li {
 button {
   border: none;
 }
-.servicescontent button:hover a{
-      color: #fff;
-      background-color: #e87532;
+.servicescontent button:hover a {
+  color: #fff;
+  background-color: #e87532;
 }
 
 /* ============================== */
@@ -1393,8 +1393,8 @@ footer {
     font-size: 25px;
     font-weight: 600;
   }
-  .innerheader h1 a{
-    color:#ea5621;
+  .innerheader h1 a {
+    color: #ea5621;
   }
   .nav {
     display: none;
@@ -1710,7 +1710,7 @@ footer {
   }
 
   /* Service Section */
-  .servicescontent{
+  .servicescontent {
     margin-bottom: 30px;
   }
   .servicescard {
@@ -1745,7 +1745,7 @@ footer {
   .container {
     padding: 0 25px;
   }
-  .innerheader h1 a{
+  .innerheader h1 a {
     color: #e87532;
   }
 
@@ -1765,15 +1765,15 @@ footer {
     display: block;
     padding: 15px 20px;
     font-size: 18px;
-     margin: 0 20px;
+    margin: 0 20px;
     margin-bottom: 20px;
     border-radius: 50px;
   }
-  .homeadd{
+  .homeadd {
     display: block;
   }
-  .add{
-    margin-bottom:25px ;
+  .add {
+    margin-bottom: 25px;
   }
   .add h1 {
     font-size: 45px;
@@ -1796,9 +1796,9 @@ footer {
   }
 
   /* About Section */
-    .returnhome {
-      right:2px;
-      bottom: 2px;
+  .returnhome {
+    right: 2px;
+    bottom: 2px;
   }
   .returnhome i {
     padding: 8px 10px;
@@ -1868,24 +1868,24 @@ footer {
     margin: 60px 0;
   }
   .navbar1 li a {
-    font-size: 16px;
+    font-size: 14px;
     padding: 10px 15px;
     border-radius: 30px;
   }
-  .row{
+  .row {
     display: block;
   }
-  .cols{
+  .cols {
     max-width: 100%;
   }
   .portfoliocard {
-  margin-bottom: 30px;
-  padding-bottom: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
   }
-  .portfoliocard p{
+  .portfoliocard p {
     font-size: 18px;
   }
-  .portfoliocard .overlayer{
+  .portfoliocard .overlayer {
     height: 72.566%;
   }
 
@@ -1895,26 +1895,25 @@ footer {
   }
 
   /* Service Section */
-  .servicescontent{
+  .servicescontent {
     margin: 0 10px;
     margin-bottom: 30px;
   }
-  .servicemainboxes{
+  .servicemainboxes {
     display: block;
   }
-    .serbox{
+  .serbox {
     width: 100%;
     height: 100%;
   }
-    .serviceboxes1,.serviceboxes2 {
+  .serviceboxes1,
+  .serviceboxes2 {
     margin-left: 20px;
     margin-right: 20px;
   }
 
   /* Frequently Asked Questions Section */
-  summary{
+  summary {
     font-size: 14px;
   }
-
-
 }
