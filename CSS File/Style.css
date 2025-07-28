@@ -1626,7 +1626,7 @@ footer {
   }
   .innerheader h1 a {
     font-size: 21px;
-    color: #ea2121;
+    color: #de08ba;
   }
   summary i {
     font-size: 20px;
@@ -1666,6 +1666,9 @@ footer {
   /* About Section */
   .content h2 {
     font-size: 35px;
+  }
+  .returnhome {
+    right: 10px;
   }
   .returnhome i {
     font-size: 21px;
